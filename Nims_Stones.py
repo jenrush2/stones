@@ -19,8 +19,8 @@ while pile >= 1:
 
 #Player 1 turn
     while pile >= 1 and turn % 2 == 0:
-        player_1 = math.ceil(input("""Playper 1: Right now there are %d stones in the pile.
-How many do you want to remove?"""%(pile)))
+        player_1 = math.ceil(float(input("""Playper 1: Right now there are %d stones in the pile.
+How many do you want to remove?"""%(pile))))
         print()
     
 #function to define a valid answer
@@ -56,8 +56,8 @@ stones that are left in the pile.""")
         
 #Player 2 turn
     while pile >= 1 and turn % 2 == 1:
-        player_2 = math.ceil(input("""Playper 2: Right now there are %d stones in the pile.
-How many do you want to remove?"""%(pile)))
+        player_2 = math.ceil(float(input("""Playper 2: Right now there are %d stones in the pile.
+How many do you want to remove?"""%(pile))))
         print()
     
 #function to define a valid answer
